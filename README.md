@@ -9,7 +9,7 @@
 - commit the changes using *git commit -m "Added demo.py" -m "Added demo.py and changes in README.md"*
 - push the changes *git push*
 
-2. If you want to access *pre-created* github repo into **local machine**;
+1. If you want to upload *pre-created* codes in your  **local machine** to github;
 - go inside de the folder in your local machine using **cd** command 
 - type **git init**
 - check **git status**
@@ -18,4 +18,4 @@
 - then commit with **git commit -m "created README" -m "some text"**
 - type **git remote add origin git@github.com:kaanvardar/demo.git**
 - type **git remote -v**
-- type **git push**
+- type **git push --set-upstream origin master**
